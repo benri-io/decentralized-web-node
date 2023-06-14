@@ -22,6 +22,61 @@ Bi-weekly DIF call notes on DWN specifications.
 
 - Andor Kesselman @andorsk email: andor@benri.io
 - Liran Cohen @lirancohen
+- Alan Karp 
+- Kirill (mee.foundation)
+
+## DIF Meeting June 14, 2023
+
+* [Recording](https://us02web.zoom.us/rec/share/Vjsy2TkDWy8TxBeBsXCp5ebw6tH2cFwm6OEVoKpK8tzXng6oxI0oC9MPHjm830xS.Z-fnRwAFjPBx2BP7)
+
+
+| Item                                      | Segment                 | Time   | Owner           | Description                                                                     |
+| ----------------------------------------- | ----------------------- | ------ | --------------- | ------------------------------------------------------------------------------- |
+| Intro                                     | Intro                   | 5 min  | @liran          | Quick Intro. New Members. DIF IPR agreement.                                    |
+| Agenda                                    | Companion Guide Updates | 10 min | @andorsk | [Update peergos description in companion_guide #231](https://github.com/decentralized-identity/decentralized-web-node/pull/231) |
+| Peergos Discussion                       | Companion Guide Updates | 10 min |  |  |
+| [Ecosystem Updates]()                           | Updates                 | 10 min | @andorsk     |                                                | 
+| Agenda                                    | Spec PR Review | 10 min |  | |
+| Spec Alignment  | Spec Alignment          | 10 min | @andorsk       | Alignment                                                                       |
+| Issue Alignment | Issue Alignment         | 10 min | @liran         | Alignment                                                                       |
+| Calls To Action | Closing                 | 5 min  | @andorsk       |                                                                                 |
+
+### Issues Discussed:
+
+- https://github.com/decentralized-identity/decentralized-web-node/pull/228 : Dan to Look at
+- https://github.com/decentralized-identity/decentralized-web-node/issues/234 : Andor
+- https://github.com/decentralized-identity/decentralized-web-node/pull/231 : Going to see if we can get Ian to comment on this. @andorsk to draft a response. 
+- https://github.com/decentralized-identity/decentralized-web-node/pull/233
+- Skipping Service Endpoint Section For Next Call 
+Andor: add something about scalability in abstract
+TODO: Check status on spec
+- Section 8 and 9 will be re-written in the near future.
+- Alignment Issues: https://github.com/decentralized-identity/decentralized-web-node/issues?q=is%3Aissue+is%3Aopen+label%3A%22attr%3A+alignment-effort%22
+
+## DIF Meeting May 31, 2023
+
+* [Recording](https://us02web.zoom.us/rec/share/UYcdp_7UO1ebQ4uFc84AnasAhSmW9Laxs1s2kVRgs48PLywyV12NqoyF800nHEV7.d0hxy8WiCovW8c_j)
+
+
+| Item                                      | Segment                 | Time   | Owner           | Description                                                                     |
+| ----------------------------------------- | ----------------------- | ------ | --------------- | ------------------------------------------------------------------------------- |
+| Intro                                     | Intro                   | 5 min  | @liran          | Quick Intro. New Members. DIF IPR agreement.                                    |
+| Agenda                                    | Companion Guide Updates | 10 min | @andorsk/Moises | [added dwn and peergos to the comparison guide #229](https://github.com/decentralized-identity/decentralized-web-node/pull/229) <br>[Local, Remote, and Relay Nodes. #225](https://github.com/decentralized-identity/decentralized-web-node/pull/225) |
+| [Ecosystem Updates]()                           | Updates                 | 10 min | @andorsk     | protocols.preview.benri.io                                                                                  | 
+| Agenda                                    | Spec PR Review | 10 min | @csuwildcat | [update the Service Endpoint section of the spec #228](https://github.com/decentralized-identity/decentralized-web-node/pull/228) <br> [added JSON schemas for DWN specification #209](https://github.com/decentralized-identity/decentralized-web-node/pull/209) |
+| Spec Alignment  | Spec Alignment          | 10 min | @andorsk       | Alignment                                                                       |
+| Issue Alignment | Issue Alignment         | 10 min | @liran         | Alignment                                                                       |
+| Calls To Action | Closing                 | 5 min  | @andorsk       |                                                                                 |
+
+### Issues Discussed:
+
+- [Authorization layer should limit the amount of data permitted to be stored by a application #96](https://github.com/decentralized-identity/decentralized-web-node/issues/96)
+- [Add use cases link #83](https://github.com/decentralized-identity/decentralized-web-node/issues/83)
+- [Test Suite Design #213](https://github.com/decentralized-identity/decentralized-web-node/issues/213)
+- [Revocation Subtleties #138](https://github.com/decentralized-identity/decentralized-web-node/issues/138)
+- [Requiring fine-grained capabilities #142](https://github.com/decentralized-identity/decentralized-web-node/issues/142)
+- [as a developer, I can follow docs to run the reference implmentation, so I can test it out and then contribute improvements or passing test-suites #144](https://github.com/decentralized-identity/decentralized-web-node/issues/144)
+- [Support both folder based and schema based object storage #190](https://github.com/decentralized-identity/decentralized-web-node/issues/190)
 
 ## DIF Meeting May 17, 2023
 
@@ -52,8 +107,6 @@ Bi-weekly DIF call notes on DWN specifications.
 ## DIF Meeting May 3, 2023
 
 * [Recording](https://us02web.zoom.us/rec/share/hGruCrcoOs9FaNuryuQlCLTFIOONSNC98-BTCqg1uypG5kD9NY0lT4CQFRlxTO34.gBW6RZlFYRb_Nbf0)
-
-## DIF Meeting April 19, 2023
 
 ### Attendees
 
@@ -100,24 +153,6 @@ Again this week we are overbooked with content. That's because we have a lot of 
 - Andor Kesselman @andorsk
 - Liran Cohen
 - Dan Buchner @csuwildcat
-
-### Agenda
-
-Hopefully we can get spec alignment today.
-
-| Item            | Segment                 | Time   | Owner           | Description                                                                     |
-| --------------- | ----------------------- | ------ | --------------- | ------------------------------------------------------------------------------- |
-| Intro           | Intro                   | 5 min  | @liran          | Quick Intro. New Members. DIF IPR agreement.                                    |
-| Agenda          | Companion Guide Updates | 10 min | @andorsk/Moises | Merge https://github.com/decentralized-identity/decentralized-web-node/pull/226 |
-| [TBD Updates]() | Updates                 | 10 min | @csuwildcat     |                                                                                 |
-| Spec Alignment  | Spec Alignment          | 10 min | @andorsk        | Alignment                                                                       |
-| Issue Alignment | Issue Alignment         | 10 min | @liran          | Alignment                                                                       |
-| Calls To Action | Closing                 | 5 min  | @andorsk        |                                                                                 |
-
-### Notes
-
-- Discussed: How we get TBD's updates into issues.
-- We called this meeting short as there were not enough participants.
 
 ## DIF Meeting March 22, 2023
 * [Recording](https://us02web.zoom.us/rec/share/SW5VZtYayd21HDKOQcGcPJJRsSvvwzHCcrxfJXm55iK94QoZ4who5cnCdW47pYC9.vCyjDuKgDCLCXoxw)
